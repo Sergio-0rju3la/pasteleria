@@ -1,0 +1,176 @@
+/*barra de navegacion*/
+.navbar{
+  background-image: url(img/patrones\ tr.png);
+  background-size: cover;
+    padding: 2rem;
+    background-color: rgb(248, 104, 109);
+}
+.navbar-collapse{
+  align-items: center;
+  justify-content: space-between;  
+}
+.logo{
+  width: 100px;
+}
+/*adaptable(responsivo)*/
+@media screen and (max-width: 767px) {
+   .navbar-brand {
+    display: none;
+   }
+}
+section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+h1{
+  font-size: 2.5rem;
+  font-family: 'Rampart One', cursive;
+  color: rgb(255, 225, 219);
+}
+h2{
+  font-size: 1.5rem;
+  font-family: 'Rampart One', cursive;
+  color: rgb(255, 235, 231);
+}
+/*seccion hero*/
+.hero{
+  background-image: url(img/fondo.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-color: lightpink;
+  min-height: 450px;
+  text-align: center;
+}
+.hero-principal{
+  padding: 3rem;
+  background-color: rgb(40, 39, 39, 0.60);
+  max-height: 390px;
+}
+.hero-imagen-desarrollador{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 20px;
+}
+.hero-principal h2{
+  font-size: 1.5rem;
+  color: rgb(255, 254, 254);
+  
+}
+/*articulos*/
+.seccion-oscura{
+  color: bisque;
+  background-color: rgb(0, 0, 0);
+}
+.productos{
+  padding: 40px 40px 100px 40px;
+  
+}
+.productos .row div{
+    padding: 4px 4px 4px 4px;
+  }
+  .art{
+    background-color: rgb(91, 28, 28);
+    border-radius: 10%;
+    height: 380px;
+    border: 2px;
+  }
+  .postre-titulo{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  /*imagenes-articulos*/
+  .postre-img{
+    width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 20px;
+  border:4px solid chocolate;
+  }
+  /*formulario*/
+  .formulario{
+    min-height: 450px;
+    background-image: url(img/form\ img.jpg);
+    height:600px;
+    background-size: cover;
+  }
+  .btn{
+    background-color:rgb(248, 104, 109) ;
+  }
+  .formulario h1{
+    font-size: 1.5rem;
+  font-family: 'Rampart One', cursive;
+  color: rgb(247, 221, 221);
+  }
+ .formulario h2{ 
+  font-size: 1.5rem;
+  font-family: 'Rampart One', cursive;
+  color: rgb(255, 225, 219); }
+  .for-fon{
+    background-color: rgba(46, 20, 38, 0.5);
+    padding: 3rem;
+    border-radius: 5%;
+    height: 490px;
+  }
+  /*carousel*/
+  .img-car{
+    width: 100%;
+  height: 490px;
+  border-radius: 4%;
+  }
+  @media screen and (max-width: 767px) {
+    .carousel {
+     display: none;
+    }
+ }
+ /*footer*/
+ footer{
+  background-image: url(img/patrones\ tr.png);
+  background-size: cover;
+  background-color: rgb(248, 104, 109);
+  min-height: 500px;
+ }
+ .footer-text{
+  color: beige;
+  font-size: 1.5rem;
+  padding: 20px;
+  margin-bottom:30px;
+ }
+ .iconos-redes-sociales a{
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 10px;
+  margin: 10px;
+  border: 2px solid rgb(245, 245, 245);
+  border-radius: 50%;
+  transition: all 0.2s ease-in;
+ }
+ .iconos-redes-sociales i{
+  color: white;
+  font-size:1.5rem ;
+  transition: all 0.2s ease-in;
+ }
+ .footer-logo{
+  height: 80px;
+  width: 80px;
+  margin: 10px;
+ }
+ .iconos-redes-sociales a:hover{
+  background-color: white;
+  border: 2px solid rgb(179, 74, 78);
+ }
+ .iconos-redes-sociales a:hover i{
+  color: rgb(179, 74, 78);
+ }
+ .btn:hover{
+  background-color: rgb(179, 74, 78);
+
+ }
+ 
